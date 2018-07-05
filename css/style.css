@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+html,body {
+  margin: 0;
+  font-family: monospace;
+  display: flex;
+
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+
+  /* This centers our sketch vertically. */
+  align-items: center;
+
+}
+
+h1{
+	font-size: 14px;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+
+header{
+    display: flex;
+  
+  /* This centers our sketch horizontally. */
+  justify-content: space-between;
+}
+
+footer{
+  display: flex;
+  /* This centers our sketch horizontally. */
+  justify-content: space-between;
+  opacity: .3;
+
+}
+
+.caption{
+	margin-top: 20px;
+}
