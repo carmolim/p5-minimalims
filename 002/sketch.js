@@ -32,7 +32,7 @@ function superTriangle(x, y, side) {
     noFill();
 
     push();
-    translate(0, h / 3);
+    translate( 0, (h / 3) + 35 );
     triangle(x - (side / 2), y, x, y - h, x + (side / 2), y);
     pop();
 
